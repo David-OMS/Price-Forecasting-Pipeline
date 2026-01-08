@@ -1,0 +1,43 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (if sensitive)
+# Uncomment if you don't want to track data files
+# data/raw/
+# data/processed/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+~$*.xlsx
+~$*.xls
+
+# Not pushing to repo
+src/
+utils/
+models/
+
